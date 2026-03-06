@@ -1,0 +1,49 @@
+.demo-block {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 16px 0;
+}
+
+.demo-block + .language-vue,
+.demo-block + .language-html {
+  margin-top: -8px;
+}
+
+.demo-row .demo-col {
+  background: #e6f7ff;
+  border: 1px solid #91d5ff;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 4px;
+}
+
+.demo-layout {
+  text-align: center;
+  padding: 16px;
+  color: #fff;
+}
+
+.demo-header {
+  background: #7dbcea;
+}
+
+.demo-content {
+  background: #108ee9;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-footer {
+  background: #7dbcea;
+}
+
+.demo-sider {
+  background: #3ba0e9;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
