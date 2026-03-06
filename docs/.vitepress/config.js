@@ -13,7 +13,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'Vue 2 原版', link: 'https://luke19950111.github.io/Vui-demo/' },
       { text: 'GitHub', link: 'https://github.com/Luke19950111/black-milk-vue3' },
-      { text: 'Blog', link: 'http://liukuai.gitee.io/blog' },
+      { text: 'Blog', link: 'https://luke19950111.github.io/' },
     ],
     sidebar: {
       '/pages/': [
