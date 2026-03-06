@@ -4,9 +4,14 @@ export default defineConfig({
   base: '/black-milk-vue3/',
   title: 'Black-Milk UI',
   description: '一个用于学习 Vue 3 组件开发的 UI 框架',
+  head: [
+    ['link', { rel: 'icon', href: '/black-milk-vue3/black-milk.png' }],
+  ],
   themeConfig: {
+    logo: '/black-milk.png',
     nav: [
       { text: '首页', link: '/' },
+      { text: 'Vue 2 原版', link: 'https://luke19950111.github.io/Vui-demo/' },
       { text: 'GitHub', link: 'https://github.com/Luke19950111/black-milk-vue3' },
       { text: 'Blog', link: 'http://liukuai.gitee.io/blog' },
     ],
