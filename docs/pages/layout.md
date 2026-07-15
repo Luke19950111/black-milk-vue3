@@ -13,10 +13,16 @@
 </div>
 
 ```html
-<g-layout>
-  <g-header>Header</g-header>
-  <g-content>Content</g-content>
-  <g-footer>Footer</g-footer>
+<g-layout style="overflow: hidden;">
+  <g-header style="height: 50px; background: lightskyblue;">
+    Header
+  </g-header>
+  <g-content style="height: 100px; background: deepskyblue;">
+    Content
+  </g-content>
+  <g-footer style="height: 50px; background: lightskyblue;">
+    Footer
+  </g-footer>
 </g-layout>
 ```
 
@@ -36,13 +42,21 @@
 </div>
 
 ```html
-<g-layout>
-  <g-header>Header</g-header>
+<g-layout style="overflow: hidden;">
+  <g-header style="height: 50px; background: lightskyblue;">
+    Header
+  </g-header>
   <g-layout>
-    <g-sider>Sider</g-sider>
-    <g-content>Content</g-content>
+    <g-sider style="height: 100px; width: 200px; background: #ddd; color: black;">
+      Sider
+    </g-sider>
+    <g-content style="height: 100px; background: deepskyblue;">
+      Content
+    </g-content>
   </g-layout>
-  <g-footer>Footer</g-footer>
+  <g-footer style="height: 50px; background: lightskyblue;">
+    Footer
+  </g-footer>
 </g-layout>
 ```
 
@@ -62,12 +76,20 @@
 </div>
 
 ```html
-<g-layout>
-  <g-sider>Sider</g-sider>
+<g-layout style="overflow: hidden;">
+  <g-sider style="width: 200px; background: #ddd; color: black;">
+    Sider
+  </g-sider>
   <g-layout>
-    <g-header>Header</g-header>
-    <g-content>Content</g-content>
-    <g-footer>Footer</g-footer>
+    <g-header style="height: 50px; background: lightskyblue;">
+      Header
+    </g-header>
+    <g-content style="height: 100px; background: deepskyblue;">
+      Content
+    </g-content>
+    <g-footer style="height: 50px; background: lightskyblue;">
+      Footer
+    </g-footer>
   </g-layout>
 </g-layout>
 ```

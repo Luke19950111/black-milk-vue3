@@ -34,6 +34,7 @@ export default defineConfig({
             { text: 'Input 输入框', link: '/pages/input' },
             { text: 'Grid 栅格', link: '/pages/grid' },
             { text: 'Layout 布局', link: '/pages/layout' },
+            { text: 'Collapse 折叠面板', link: '/pages/collapse' },
             { text: 'Toast 提示', link: '/pages/toast' },
             { text: 'Popover 弹出框', link: '/pages/popover' },
           ],

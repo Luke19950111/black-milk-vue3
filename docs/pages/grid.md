@@ -39,10 +39,41 @@
 </div>
 
 ```html
-<g-row>
-  <g-col :span="8">8</g-col>
-  <g-col :span="8">8</g-col>
-  <g-col :span="8">8</g-col>
+<g-row class="demo-row">
+  <g-col :span="8"><div class="demo-col">8</div></g-col>
+  <g-col :span="8"><div class="demo-col">8</div></g-col>
+  <g-col :span="8"><div class="demo-col">8</div></g-col>
+</g-row>
+
+<g-row class="demo-row">
+  <g-col :span="6"><div class="demo-col">6</div></g-col>
+  <g-col :span="6"><div class="demo-col">6</div></g-col>
+  <g-col :span="6"><div class="demo-col">6</div></g-col>
+  <g-col :span="6"><div class="demo-col">6</div></g-col>
+</g-row>
+
+<g-row class="demo-row">
+  <g-col :span="4"><div class="demo-col">4</div></g-col>
+  <g-col :span="4"><div class="demo-col">4</div></g-col>
+  <g-col :span="4"><div class="demo-col">4</div></g-col>
+  <g-col :span="4"><div class="demo-col">4</div></g-col>
+  <g-col :span="4"><div class="demo-col">4</div></g-col>
+  <g-col :span="4"><div class="demo-col">4</div></g-col>
+</g-row>
+
+<g-row class="demo-row">
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
+  <g-col :span="2"><div class="demo-col">2</div></g-col>
 </g-row>
 ```
 
@@ -63,10 +94,17 @@
 </div>
 
 ```html
-<g-row :gutter="10">
-  <g-col :span="8">8</g-col>
-  <g-col :span="8">8</g-col>
-  <g-col :span="8">8</g-col>
+<g-row :gutter="10" class="demo-row">
+  <g-col :span="8"><div class="demo-col">8</div></g-col>
+  <g-col :span="8"><div class="demo-col">8</div></g-col>
+  <g-col :span="8"><div class="demo-col">8</div></g-col>
+</g-row>
+
+<g-row :gutter="10" class="demo-row">
+  <g-col :span="6"><div class="demo-col">6</div></g-col>
+  <g-col :span="6"><div class="demo-col">6</div></g-col>
+  <g-col :span="6"><div class="demo-col">6</div></g-col>
+  <g-col :span="6"><div class="demo-col">6</div></g-col>
 </g-row>
 ```
 
@@ -89,9 +127,20 @@
 </div>
 
 ```html
-<g-row>
-  <g-col :span="8">8</g-col>
-  <g-col :span="8" :offset="8">8 offset-8</g-col>
+<g-row class="demo-row">
+  <g-col :span="8"><div class="demo-col">8</div></g-col>
+  <g-col :span="8" :offset="8"><div class="demo-col">8 offset-8</div></g-col>
+</g-row>
+
+<g-row class="demo-row">
+  <g-col :span="6" :offset="6"><div class="demo-col">6 offset-6</div></g-col>
+  <g-col :span="6" :offset="6"><div class="demo-col">6 offset-6</div></g-col>
+</g-row>
+
+<g-row class="demo-row">
+  <g-col :span="4"><div class="demo-col">4</div></g-col>
+  <g-col :span="4" :offset="4"><div class="demo-col">4 offset-4</div></g-col>
+  <g-col :span="4" :offset="4"><div class="demo-col">4 offset-4</div></g-col>
 </g-row>
 ```
 

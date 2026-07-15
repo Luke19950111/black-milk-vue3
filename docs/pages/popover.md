@@ -95,6 +95,27 @@
   </template>
   <g-button>上方 hover</g-button>
 </g-popover>
+
+<g-popover position="bottom" trigger="hover">
+  <template #content>
+    <div>下方 hover 弹出</div>
+  </template>
+  <g-button>下方 hover</g-button>
+</g-popover>
+
+<g-popover position="left" trigger="hover">
+  <template #content>
+    <div>左侧 hover 弹出</div>
+  </template>
+  <g-button>左侧 hover</g-button>
+</g-popover>
+
+<g-popover position="right" trigger="hover">
+  <template #content>
+    <div>右侧 hover 弹出</div>
+  </template>
+  <g-button>右侧 hover</g-button>
+</g-popover>
 ```
 
 ## API
